@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+  font-size: 15px;
+  font-family: Poppins;
+  height: 100vh;
+  width: auto;
+  background-color: hsl(0, 0%, 98%);
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.header{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  width: 500px;
 }
-
-.App-link {
-  color: #61dafb;
+.header-title{
+  font-size: 2.25rem;
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header-sub-title{
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.header-description{
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.card-section{
+  display: flex;
+  align-items: center;
+}
+.col-1 {
+  margin: 1rem;
+}
+.col-2 {
+  margin: 1rem;
+}
+.col-2 .card{
+  margin-bottom: 2rem;
+}
+.col-3 {
+  margin: 1rem;
+}
+@media only screen and (max-width: 1140px) {
+  body{
+    height: auto;
   }
-  to {
-    transform: rotate(360deg);
+  .card-section{
+    flex-direction: column;
+  }
+  .col-3{
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-description{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .header-title{
+    font-size: 1.8rem;
+  }
+  .header-sub-title{
+    font-size: 1.8rem;
+  }
+  .header-description{
+    width: 300px;
   }
 }

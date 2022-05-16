@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid;
+    border-radius: 8px;
+    padding: 32px;
+    width: 350px;
+    height: 250px;
+    box-shadow: 5px 5px 20px 0px hsl(229, 6%, 66%);
+}
+.image-div{
+    display: flex;
+    align-self: flex-end;
+    margin-top: auto;
+}
+.title{
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: hsl(234, 12%, 34%);
+}
+.description{
+    font-weight: 200;
+    font-size: .8rem;
+    color: hsl(229, 6%, 66%);
+}
