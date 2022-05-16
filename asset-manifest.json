@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontendMentor-four-card-feature/static/css/main.aaa8aa33.css",
+    "main.js": "/frontendMentor-four-card-feature/static/js/main.bf7485c1.js",
+    "static/js/787.1ce1dae8.chunk.js": "/frontendMentor-four-card-feature/static/js/787.1ce1dae8.chunk.js",
+    "index.html": "/frontendMentor-four-card-feature/index.html",
+    "main.aaa8aa33.css.map": "/frontendMentor-four-card-feature/static/css/main.aaa8aa33.css.map",
+    "main.bf7485c1.js.map": "/frontendMentor-four-card-feature/static/js/main.bf7485c1.js.map",
+    "787.1ce1dae8.chunk.js.map": "/frontendMentor-four-card-feature/static/js/787.1ce1dae8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaa8aa33.css",
+    "static/js/main.bf7485c1.js"
+  ]
+}
